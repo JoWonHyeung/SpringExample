@@ -36,7 +36,6 @@ public class NetworkClient {
         call("초기화 연결 메세지");
     }
 
-
     @PreDestroy
     public void close() throws Exception {
         System.out.println("close");
